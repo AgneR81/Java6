@@ -106,4 +106,8 @@ let strRes = str.split(' ')
 console.log(strRes);
 console.log(strRes.join(':'));
 
+//-----------------
+
+
+
 

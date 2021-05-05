@@ -215,15 +215,22 @@ const feed = [{
 
 console.log(feed);
 
-let feedNew = feed.concat('PUSH');
-console.log(feedNew);
+// let feedNew = feed.concat('PUSH');
+// console.log(feedNew);
 
-// let result1 = feedNew.find(function(item, index, array) {
-//     return item.amzius === 50; // grazina tik pirma kuris TRUE
-// });
+console.log(feed[1].autorius.amzius)
 
-// console.log(result1);
+let result1 = feed.find(function(item, index, array) {
+    return item.autorius.amzius === 50; // grazina tik pirma kuris TRUE
+});
 
-delete feedNew[1];
-console.log(feedNew);
-console.log(feedNew[3]);
+console.log(result1);
+
+// delete feedNew[1];
+// console.log(feedNew);
+// console.log(feedNew[3]);
+
+for (let object of feed) {
+    console.log(object);
+}
+

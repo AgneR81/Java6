@@ -160,9 +160,9 @@ let arrObj = [
     { name: 'Tomas', age: 20 },
 ];
 
-let result1 = arrObj.find(function(item, index, array) {
-    return item.age === 10; // grazina tik pirma kuris TRUE
-});
+// let result1 = arrObj.find(function(item, index, array) {
+//     return item.age === 10; // grazina tik pirma kuris TRUE
+// });
 
 let result2 = arrObj.filter(function(item, index, array) {
     return item.age === 10; // grazina visus kurie TRUE
